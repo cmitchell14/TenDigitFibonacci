@@ -9,12 +9,11 @@ namespace TenDigitFibonacci
     class Program
     {
         //INSTRUCTIONS --
-        /*Please complete for Coding Challenge 3:        The Fibonacci sequence is defined by the recurrence relation:        Fn = Fn−1 + Fn−2, where F1 = 1, F2 = 1, F3 = 2, .... and F12 = 144. F12 is the first term to contain three digits.         What is the index of the first term in the Fibonacci sequence to contain 10 digits?        Remember to commit changes to the repository. Submit your repo url to this assignment.
+        /*Please complete for Coding Challenge 3:        The Fibonacci sequence is defined by the recurrence relation:        Fn = Fn−1 + Fn−2, where F1 = 1, F2 = 1, F3 = 2, .... and F12 = 144. F12 is the first term to contain three digits.         What is the index of the first term in the Fibonacci sequence to contain 10 digits?
         */
 
         static void Main(string[] args)
         {
-            List<int> fibSeq = new List<int>();
             int a = 1;
             int x = 0;
             int count = 1;
@@ -41,6 +40,8 @@ namespace TenDigitFibonacci
                     count++;
                 }
             } 
+
+
 
         }
     }
