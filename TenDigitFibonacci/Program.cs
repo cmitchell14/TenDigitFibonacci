@@ -23,10 +23,11 @@ namespace TenDigitFibonacci
 
                 if (i >= 1000000000)
                 {
-                    //Console.WriteLine(i);
+                    //Console.WriteLine(i); -> there for testing.
                     x = a;
                     a = i;
-                    Console.WriteLine("The first 10 digit number in the sequence is:");
+                    count++;
+                    Console.WriteLine("The first 10 digit number in the sequence is: ");
                     Console.WriteLine(i);
                     Console.WriteLine();
                     Console.Write("The index is F");
@@ -34,7 +35,7 @@ namespace TenDigitFibonacci
                 }
                 else
                 {
-                    //Console.WriteLine(i);
+                    //Console.WriteLine(i); -> Here for testing.*/
                     x = a;
                     a = i;
                     count++;
